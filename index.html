@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&amp;display=swap" rel="stylesheet">
+    <script src="https://cdn.agora.io/sdk/release/AgoraRTCSDK-3.6.1.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/videologo.png">
+    <title>video chat app</title>
+</head>
+
+<body>
+
+  
+    <div class="header">
+        <h1 class="btn-grad">Video Call </h1><h5>Here You Go</h5>
+    </div>
+ 
+    <div class="intro">
+        <h2>Hello! Welcome to our <span>Video Call</span> App &#128150 🎉</h2>
+         <h4>Choose Your Avatar</h4>
+     
+         <form >
+             <input type="radio" name="gender" value="male" id="male" checked> <label for="male" class="male">
+                 <img class="radioimg" src="./assets/male.png" alt=""></label>
+             <input type="radio" name="gender" value="female" id="female"> <label for="female" class="female">
+                 <img class="radioimg" src="./assets/female.png" alt=""></label>
+         </form>
+         <button class="startmeet" onclick="clicked()">Start Meeting</button>
+    </div>
+
+    <div class="container">
+        <div class="left" id="local"><h1>You <img src="./assets/muteImg.png" class="muteImg"></h1></div>
+        <div class="right" id="remote"><h1> <span class="count">0</span> others</h1><div class="others-container"></div> </div>
+    </div>
+
+
+    <div class="btns startnow">
+        <button class="btn-grad-1 " onclick="muteAudio()">mute</button>
+        <button class="btn-grad-2 " onclick="unmuteAudio()">unmute</button>
+        <button class="btn-grad-3 " onclick="leaveMeet()">leave</button>
+    </div>
+
+    <div class="copylink startnow">
+        <h1><span>Share</span> this link with your friends</h1>
+        <div id="copycontent" class="copycontent" onclick="copyToClipboard()"> <p id="p">https://bit.ly/2VLjX4p</p> <p class="copied">copy</p> </div>
+    </div>
+
+
+
+
+
+
+
+
+    
+ <script src="app.js"></script>
+ 
+</body>
+</html>
