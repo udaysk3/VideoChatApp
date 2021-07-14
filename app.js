@@ -41,6 +41,7 @@ function callAvatar(avatar)
 {
     local.classList.add('avatar');
    local.style.backgroundImage = `url(./assets/${avatar.value}.png)`;
+   local.style.backgroundSize = "200px 200px";
 }
 
 
@@ -60,7 +61,7 @@ client.init("f97d47c0e22b4232944b8d1cbfc6dd8d");
   
 // creating the channel
 client.join(
-  "006f97d47c0e22b4232944b8d1cbfc6dd8dIAAghE46fDDvjt7OS5P6PAW6EgsH7CN7fmMZAenaOhgWUHNyD9kAAAAAEAAHiSHUaa3uYAEAAQBore5g",
+  "006f97d47c0e22b4232944b8d1cbfc6dd8dIAAtMncMeffuptYIqCqQADZR0Y8sYXn35H3RhyvqPlFtb3NyD9kAAAAAEAAHiSHUNx/wYAEAAQA2H/Bg",
   "demoo",
   null,
   (uid) => {
