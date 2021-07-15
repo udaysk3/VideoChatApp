@@ -61,7 +61,7 @@ client.init("f97d47c0e22b4232944b8d1cbfc6dd8d");
   
 // creating the channel
 client.join(
-  "006f97d47c0e22b4232944b8d1cbfc6dd8dIAAtMncMeffuptYIqCqQADZR0Y8sYXn35H3RhyvqPlFtb3NyD9kAAAAAEAAHiSHUNx/wYAEAAQA2H/Bg",
+  "006f97d47c0e22b4232944b8d1cbfc6dd8dIACj5Lx2AlPaegUOUv+cD+sGb/sTUArpPr15wIngfxp7Z3NyD9kAAAAAEABK0cUixLTxYAEAAQDEtPFg",
   "demoo",
   null,
   (uid) => {
