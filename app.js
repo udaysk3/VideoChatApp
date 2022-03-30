@@ -61,8 +61,8 @@ client.init("f97d47c0e22b4232944b8d1cbfc6dd8d");
   
 // creating the channel
 client.join(
-  "006f97d47c0e22b4232944b8d1cbfc6dd8dIAAt/xNZglFVL7VRMQW7/hIXE7yEzKT5mX+dXqUJLZ5RLnNyD9kAAAAAEADok+XSm7U1YQEAAQCatTVh",
-  "demoo",
+  "006f97d47c0e22b4232944b8d1cbfc6dd8dIABRNXstwYbx9DKQ9Zj1jTyPdyZR3cn9HIf9ADUn5frHGzzzn5UAAAAAEAAJmhJvjVNFYgEAAQCMU0Vi",
+  "temporary",
   null,
   (uid) => {
     // Create a local stream
